@@ -17,8 +17,8 @@
     formspreeFormId: "mwvrazgv",
     notifyEmail: "peteralli479@gmail.com",
     // International format, digits only - required by the wa.me link format.
-    whatsappNumber: "2348063838960",
-    supportPhone: "0806-383-8960",
+    whatsappNumber: "2349073118165",
+    supportPhone: "09073118165",
   };
 
   const FORMSPREE_ENDPOINT = `https://formspree.io/f/${CONFIG.formspreeFormId}`;
