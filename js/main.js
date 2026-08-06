@@ -46,7 +46,7 @@
       id: 2,
       name: "Large Bottle",
       size: "1 Litre",
-      price: 1500,
+      price: 2000,
       description: "Share with friends and family",
       image: "images/75cl.png",
       badge: null,
@@ -55,7 +55,7 @@
       id: 3,
       name: "Party Keg",
       size: "5 Litres",
-      price: 5000,
+      price: 6000,
       description: "Perfect for large gatherings",
       image: "images/5ltrs2.png",
       badge: "Event Special",
@@ -123,7 +123,10 @@
                   <h3 class="text-xl font-bold text-gray-900">${product.name}</h3>
                   <p class="text-sm text-gray-500">${product.size}</p>
                 </div>
-                <div class="text-right">${price}</div>
+                <div class="text-right">
+                  ${price}
+                  <p class="text-xs text-gray-500 whitespace-nowrap">(excluding delivery)</p>
+                </div>
               </div>
               <p class="text-gray-600 text-sm mb-6">${product.description}</p>
               <a href="${whatsappLink(product)}" target="_blank" rel="noopener" class="w-full py-3 bg-green-600 text-white font-bold rounded-xl hover:bg-green-700 transition flex items-center justify-center gap-2">${WHATSAPP_ICON}${label}</a>
